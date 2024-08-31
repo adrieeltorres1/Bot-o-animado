@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(205, 213, 219);
+}
+#btn {
+display: flex;
+justify-content: center;
+margin-top: 280px;
+    & button {
+        height: 120px;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 20px;
+        background-color: blue;
+        color: aliceblue;
+        font-size: 16px;
+    }
+    & button:hover{
+        background-color: black;
+        transition: 1.5s;
+        color: white;
+    }
+}
+        
