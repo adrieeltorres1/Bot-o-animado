@@ -1,12 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 body {
-    background-color: rgb(205, 213, 219);
+    background-color: aliceblue;
 }
 #btn {
 display: flex;
@@ -15,11 +17,18 @@ margin-top: 280px;
     & button {
         height: 120px;
         width: 400px;
-        border: 2px solid black;
+        border: 1px solid #00ffff;
         border-radius: 20px;
-        background-color: blue;
-        color: aliceblue;
-        font-size: 16px;
+        background-color: #00ffff;
+        color: white;
+        font-size: 30px;
+        font:bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & svg {
+            margin-right: 15px;
+        }
     }
     & button:hover{
         background-color: black;
@@ -27,4 +36,3 @@ margin-top: 280px;
         color: white;
     }
 }
-        
