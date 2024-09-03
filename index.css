@@ -21,18 +21,34 @@ margin-top: 280px;
         border-radius: 20px;
         background-color: #00ffff;
         color: white;
+        font-weight: 500;
         font-size: 30px;
         font:bold;
         display: flex;
         align-items: center;
         justify-content: center;
-        & svg {
-            margin-right: 15px;
+        & #aviao1 {
+            margin-left: 15px;
+            animation-name: aviao1-passando;
+            animation-duration: 2s;
+        }
+        & span {
+            margin-left: 10px;
+            animation-name: subir;
+            animation-duration: 4s;
         }
     }
-    & button:hover{
-        background-color: black;
-        transition: 1.5s;
-        color: white;
+}
+
+@keyframes subir {
+    0% {
+       margin-bottom: 150px;
+       color: aliceblue;
     }
 }
+/* 
+@keyframes aviao1-passando {
+    0% {
+        margin-left: 200px;
+    }
+} */
