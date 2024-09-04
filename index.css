@@ -46,9 +46,9 @@ margin-top: 280px;
        color: aliceblue;
     }
 }
-/* 
+
 @keyframes aviao1-passando {
-    0% {
-        margin-left: 200px;
+    from {
+        transform: translateY(360%);
     }
-} */
+}
